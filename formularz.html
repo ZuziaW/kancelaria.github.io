@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Kancelaria Radców Prawnych i Adwokatów</title>
+    <link rel="stylesheet" type="text/css" href="styles3.css">
+    <script src="logowanie.js"></script>
+    <script src="rejestracja.js"></script>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <div class="container">
+        <form>
+        <header>
+            <h1> Kancelaria Radców Prawnych i Adwokatów </h1>
+        </header>
+
+        <wybor1>
+            <ul>
+                <li> <img src="stronaglowna.png" alt="Opis obrazka" style="width: 15px; height: 15px;"> <a
+                        href="index.html">Srona Glowna</a></li>
+                <li> <img src="checkbox.png" alt="Opis obrazka" style="width: 15px; height: 15px;"> <a href="#">Formularz</a>
+                </li>
+                <li> <img src="regulamin.png" alt="Opis obrazka" style="width: 15px; height: 15px;"> <a
+                        href="polprywatnosci.html">Polityka prywatności</a></li> 
+                <li> <img src="kontakt.png" alt="Opis obrazka" style="width: 15px; height: 15px;"> <a
+                        href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </wybor1>       
+
+        <section class="hero"> 
+            <div class="test">
+                <h1>Wypełnij formularz do wstępnego rozpoznania sprawy</h1>
+            </div>
+            <div class="ramka">
+            <div class="form-group">
+                <label for="firstName" class="form-label">Imię:</label>
+                <input type="text" id="firstName" class="form-input">
+              </div>
+              <div class="form-group">
+                <label for="lastName" class="form-label">Nazwisko:</label>
+                <input type="text" id="lastName" class="form-input">
+              </div>
+              <div class="form-group">
+                <label for="email" class="form-label">E-mail:</label>
+                <input type="email" id="email" class="form-input">
+              </div>
+              <div class="form-group">
+                <label for="phoneNumber" class="form-label">Opisz sprawę:</label>
+                <input type="tel" id="phoneNumber" class="form-input">
+              </div>
+              <div class="form-group">
+                <label for="education" class="form-label">Typ sprawy</label>
+                <select id="education" class="form-select">
+                  <option value="">Wybierz typy sprawy</option>
+                  <option value="podstawowe">Prawo pracy</option>
+                  <option value="podstawowe">Administracjae</option>
+                  <option value="średnie">Prawo cywilne</option>
+                  <option value="wyższe">Prawo rodzinne</option>
+                  <option value="wyższe">Reprezentacja</option>
+                  <option value="wyższe">Prawo gospodarcze</option>
+                  <option value="wyższe">Prawo pracy</option>
+                </select>
+              </div>    
+
+
+              <div class="form-group">
+                <label class="form-label">Płeć:</label>
+            <div class="wyborplci">
+                <input type="checkbox" id="genderFemale" name="option" value="kobieta">
+                <label for="genderFemale">Kobieta</label>
+                <input type="checkbox" id="genderMale" name="option" value="mężczyzna">
+                <label for="genderMale">Mężczyzna</label>
+            </div>
+            </div>
+
+
+              
+              <div class="form-button-container">
+                <button type="submit" class="form-button">Zatwierdź</button>
+                <button type="reset" class="form-button">Resetuj</button>
+              </div>
+            </form>
+          </div>
+
+
+
+            </div>
+        </div>
+        </section>
+        <section class="footer">
+                <div class="linia1"></div>
+                <div class="drogi-grid">
+                <div class="napis1"><h4>©Spoleczność 2025 Korzystając ze strony, wyrażasz zgodę na przetwarzanie danych osobowych zgodnie z naszą polityką prywatności.</h4></div> 
+                <div class="napis2"><h4>Polityka prywatności</h4></p></div> 
+                <div class="napis3"><h4>Spółka prartnerska z siedzibą w Warszawie 02-495, Ulica. Koźminiarska 25</div> 
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    </div>
+</body>
+
+</html>
